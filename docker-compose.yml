@@ -39,7 +39,7 @@ services:
       - postgres-server
       - zabbix-server
     ports:    # Port where Zabbix UI is available
-      - 8090:8888
+      - 8888:80
   zabbix-agent:   # Zabbix agent service that tracks usage and send to zabbix server
     image: zabbix/zabbix-agent:latest
     privileged: true   #access mode for allowing resource access
