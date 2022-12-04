@@ -33,7 +33,7 @@ services:
       POSTGRES_DB: zabbixNew
       ZBX_SERVER_HOST: zabbix-server  # Zabbix related and Php variables
       ZBX_POSTMAXSIZE: 64M
-      PHP_TZ: "Asia/Kolkata"  
+      PHP_TZ: "Europe/Paris"  
       ZBX_MAXEXECUTIONTIME: 500
     depends_on:
       - postgres-server
